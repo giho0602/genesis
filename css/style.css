@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #131313;
+}
+
+.hero{
+    background-image: url('../images/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 900px;
+    z-index: -1;
+}
+
+.black-bg{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 900px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.content{
+    position: absolute;
+    z-index: 3;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding-left: 30px;
+    margin: 300px 0 0 200px;
+}
+
+.sub-title{
+    margin: 5px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.main-title{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.content-bg-01 img{
+    width: 100%;
+}
+
+.sec2 h1{
+    font-weight: 400;
+    color: #76808D;
+}
+
+.content-bg-01 h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #76808D;
+    padding: 20px 0 5px 0;
+}
+
+.content-bg-01 p{
+    font-weight: 300;
+    line-height: 26px;
+    color: #dbdbdb;
+}
+
+.content-title{
+    padding: 40px 0;
+}
+
+.video-section{
+    position: relative;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.video-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-box{
+    width: 95%;
+    height: 90%;
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.video-text{
+    z-index: 9;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.video-text p{
+    font-size: 20px;
+}
+
+.video-btn a{
+    padding: 10px 30px;
+    background: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    margin: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.video-bg video{
+    width: 100%;
+}
+
+.design-bg{
+    position: relative;
+    padding: 0;
+}
+
+.design-bg img{
+    width: 100%;
+}
+
+.design-title{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    
+}
+
+.design-title p{
+    font-size: 1rem;
+    color: #76808D;
+}
+
+.design-title h1{
+    font-size: 2.5rem;
+}
+
+.design-1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.design-1 img{
+    width: 80%;
+    height: 100%;
+}
+
+.design-content{
+    position: relative;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design-content img{
+    width: 100%;
+}
+
+.design-content-title{
+    width: 80%;
+    height: 90%;
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+@media(max-width: 767px){
+    .main-content{
+        margin: 300px 0 0 10px;
+    }
+}
